@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.imgg{
+background-image: url("moon.jpeg");
+background-size: cover;
+width: 650px;
+margin: 20px;
+height: 630px;
+filter: blur(1px);
+}
+.sec1{
+  display: flex;
+}
+.leo{
+  margin-top: 60px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  opacity: 0.4;
+  color:blue;
+  margin-left: 200px;
+}
+.lee{
+  margin-left: 200px;
+  font-size: 18px;
+  color:blue;
+  opacity: 0.4;
+  margin-bottom: 15px;
+}
+.put1{
+  margin-left: 200px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  margin-bottom: 15px;
+  padding: 15px;
+  padding-left: 150px;
+}
+.put2{
+  margin-left: 200px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  margin-bottom: 15px;
+  padding: 15px;
+  padding-left: 150px;
+}
+.btn1{
+  margin-left: 300px;
+  background-color: none;
+  border-color: blue;
+  padding: 10px;
+  padding-left: 15px;
+  opacity: 0.8;
+  border-radius: 6px;
+  padding-right: 15px;
+  color:blue;
+  margin-bottom: 15px;
+}
+.for{
+  margin-left: 200px;
+  margin-bottom: 15px;
+}
+.log{
+  margin-left: 280px;
+  font-size: 55px;
+  margin-top: 80px;
+  color:blue;
+}
+.put1:hover{
+  cursor: text;
+  border-color: darkblue;
+}
+.put2:hover{
+  cursor: text;
+  border-color: darkblue;
+}
+.for{
+  font:15px;
+  color:blue;
+  opacity: 0.4;
+}
+.for:hover{
+  cursor: pointer;
+  color: green;
+}
+.leo::before{
+  border-left: 10px solid blue;
+  margin-left: 100px;
+  padding-top: 15px;
+}
+.lee::before{
+  border-left: 10px solid blue;
+  padding-top: 15px;
+}
+.check{
+  margin-left: 200px;
+  border-radius: 6px;
+  border: 4px solid blue;
+  margin-bottom: 15px;
+}
+.btn1:hover{
+  background-color: blue;
+  border-color: blue;
+  color:white;
+  cursor: pointer;
+}
+.log:hover{
+  color:linear-gradient(45deg, #042461 0%, rgba(225, 5, 34, 0) 70%);
+  transform: rotateY(30deg);
+  transform: rotateX(30deg);
+  transform: rotateZ(10deg);
+}
+.sec2{
+  display: flex;
+  margin: 10px;
+  margin-left: 80px;
+  justify-content: space-between;
+}
+.m1{
+  margin-left: 190px;
+}
+.re{
+  color: blue;
+  opacity: 0.5;
+}
+.put3{
+  margin-left: 200px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  margin-bottom: 15px;
+  padding: 15px;
+  padding-left: 150px;
+}
+.loe{
+  margin-left: 200px;
+  font-size: 18px;
+  color:blue;
+  opacity: 0.4;
+  margin-bottom: 15px;
+}
+.put3:hover{
+  cursor: text;
+  border-color: darkblue;
+}
